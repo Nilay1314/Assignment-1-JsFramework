@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/background-image.avif');
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+
+#output, #Para {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+footer {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* Add hover effect */
+#output p, #Para p {
+  transition: color 0.3s ease;
+}
+
+#output p:hover, #Para p:hover {
+  color: #990011;
+}
+
+h3:hover {
+  transform: scale(1.1);
+}
+
+footer:hover {
+  transform: translateY(-5px);
+}
+
